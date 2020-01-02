@@ -16,7 +16,7 @@ const UseStateAndArrays = () =>{
     return(
         <div>
             <button onClick={AddItem}>Add item to state array</button>
-            <ul>{items.map(item => <li key={item.div}>{item.value}</li>)}</ul>
+            <ul>{items.map(item => <li key={item.id}>{item.value}</li>)}</ul>
         </div>
     )
 }

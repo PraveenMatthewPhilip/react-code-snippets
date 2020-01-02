@@ -3,6 +3,7 @@ import React, { useState, useEffect } from 'react';
 const UseEffectUpdateDocumentTitle = () => {
     const [ counter, setCounter ] = useState(0);
     useEffect(() => {
+        console.log(`useEffect - UseEffectUpdateDocumentTitle.js`)
         document.title = `Button clicked ${counter} time${counter !==  1 ?'s':''}.`
     });
     return(
