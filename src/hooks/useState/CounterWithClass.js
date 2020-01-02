@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 
-class CounterWithClass extends Component {
+class ClassCounter extends Component {
 
     state = {
         counter: 0
@@ -14,9 +14,9 @@ class CounterWithClass extends Component {
 
     render(){
 
-    return(<button onClick={this.onClick}>Counter: {this.state.counter}</button>)
+    return(<button onClick={this.onClick}>Counter with Class : {this.state.counter}</button>)
 
     }
 }
 
-export default CounterWithClass;
+export default ClassCounter;
