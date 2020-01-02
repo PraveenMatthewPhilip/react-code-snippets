@@ -7,6 +7,7 @@ import UseStateCounterWithPreviousState from './hooks/useState/UseStateCounterWi
 import UseStateAndObjects from './hooks/useState/UseStateAndObjects';
 import UseStateAndArrays from './hooks/useState/UseStateAndArrays'
 import UseEffectUpdateDocumentTitle from './hooks/useEffect/UseEffectUpdateDocumentTitle';
+import ClassPreventcomponentDidUpdate from './hooks/useEffect/ClassPreventcomponentDidUpdate';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <UseStateAndObjects />
       <UseStateAndArrays />
       <UseEffectUpdateDocumentTitle />
+      <ClassPreventcomponentDidUpdate />
     </div>
   );
 }

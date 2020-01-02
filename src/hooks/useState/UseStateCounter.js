@@ -9,7 +9,10 @@ const UseStateCounter = () => {
     } */
 
     return(
+        <div>
+            Update state using componentDidUpdate,  componentDidMount
         <button onClick={() => setCounter(counter + 1)} >Counter with useState : {counter}</button>
+        </div>
     )
 
 }
