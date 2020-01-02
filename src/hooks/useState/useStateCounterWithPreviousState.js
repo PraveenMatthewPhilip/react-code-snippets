@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-const HookCounterWithPreviousState = () =>{
+const UseStateCounterWithPreviousState = () =>{
 
     const [counter, setCounter] = useState(0);
     const incrementBy5 = () => {
@@ -20,4 +20,4 @@ const HookCounterWithPreviousState = () =>{
     )
 }
 
-export default HookCounterWithPreviousState;
+export default UseStateCounterWithPreviousState;

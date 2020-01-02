@@ -1,16 +1,16 @@
 import React from 'react';
 import './App.css';
 
-import ClassCounter from './hooks/useState/CounterWithClass';
-import HookCounter from './hooks/useState/HookCounter';
-import HookCounterWithPreviousState from './hooks/useState/HookCounterWithPreviousState';
+import ClassCounter from './hooks/useState/ClassCounter';
+import UseStateCounter from './hooks/useState/useStateCounter';
+import UseStateCounterWithPreviousState from './hooks/useState/UseStateCounterWithPreviousState';
 
 function App() {
   return (
     <div className="App">
       <ClassCounter />
-      <HookCounter />
-      <HookCounterWithPreviousState />
+      <UseStateCounter />
+      <UseStateCounterWithPreviousState />
     </div>
   );
 }
