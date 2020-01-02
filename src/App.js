@@ -9,6 +9,7 @@ import UseStateAndArrays from './hooks/useState/UseStateAndArrays'
 import UseEffectUpdateDocumentTitle from './hooks/useEffect/UseEffectUpdateDocumentTitle';
 import ClassPreventcomponentDidUpdate from './hooks/useEffect/ClassPreventcomponentDidUpdate';
 import MouseMoveWithClass from './hooks/useEffect/MouseMoveWithClass';
+import UseEffectMouseMove from './hooks/useEffect/UseEffectMouseMove';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <UseEffectUpdateDocumentTitle />
       <ClassPreventcomponentDidUpdate />
       <MouseMoveWithClass />
+      <UseEffectMouseMove />
     </div>
   );
 }
