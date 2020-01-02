@@ -12,10 +12,25 @@ class ClassCounter extends Component {
         })
     }
 
+    incrementBy5 = () =>{
+        for(let i = 0 ; i < 5; ++i){
+            this.setState(
+                prevState => {
+                    return {
+                        counter: prevState.counter + 1
+                    }
+                
+            })
+        }
+    }
+
     render(){
-
-    return(<button onClick={this.onClick}>Counter with Class : {this.state.counter}</button>)
-
+    return(
+    <div>
+        Counter with Class : {this.state.counter}
+    <button onClick={this.onClick}>Increment</button>
+    <button onClick={this.incrementBy5}>Increment by 5</button>
+    </div>);
     }
 }
 
