@@ -11,7 +11,7 @@ const HookCounterWithPreviousState = () =>{
     }
     return(
         <div>
-            Counter: {counter}
+            Counter with useState : {counter}
             <button onClick={()=> setCounter(0)}>Reset</button>
             <button onClick={()=> setCounter(prevState =>  prevState + 1)}>Increment</button>
             <button onClick={()=> setCounter(prevState => prevState - 1)}>Decrement</button>
