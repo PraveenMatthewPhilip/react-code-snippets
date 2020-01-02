@@ -13,6 +13,11 @@ const UseEffectMouseMove = () => {
     {
         console.log("useEffect - UseEffectMouseMove.js")
         window.addEventListener("mousemove", MouseMoveHandler);
+        
+        return () => {
+            console.log("useEffect, unMount - UseEffectMouseMove.js");
+            window.removeEventListener("mousemove", MouseMoveHandler);
+        }
     }, []);
 
     return(

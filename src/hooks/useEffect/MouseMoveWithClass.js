@@ -16,6 +16,7 @@ class MouseMoveWithClass extends Component{
     }
 
     componentWillUnmount(){
+        console.log("componentWillUnmount - MouseMoveWithClass.js")
         window.removeEventListener("mousemove", this.mouseMoveListen);
     }
 

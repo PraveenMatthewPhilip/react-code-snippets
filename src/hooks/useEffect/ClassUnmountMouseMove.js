@@ -11,10 +11,11 @@ class ClassUnmountMouseMove extends Component{
             display: !this.state.display
         })
     }
-    
+
     render(){
     return(
         <div>
+            componentDidUnmount : 
             <button onClick={this.toggleButton}>Toggle</button>
             {this.state.display && <MouseMoveWithClass />}
         </div>

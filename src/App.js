@@ -8,8 +8,8 @@ import UseStateAndObjects from './hooks/useState/UseStateAndObjects';
 import UseStateAndArrays from './hooks/useState/UseStateAndArrays'
 import UseEffectUpdateDocumentTitle from './hooks/useEffect/UseEffectUpdateDocumentTitle';
 import ClassPreventcomponentDidUpdate from './hooks/useEffect/ClassPreventcomponentDidUpdate';
-import UseEffectMouseMove from './hooks/useEffect/UseEffectMouseMove';
 import ClassUnmountMouseMove from './hooks/useEffect/ClassUnmountMouseMove';
+import UseEffectUnmountMouseMove from './hooks/useEffect/UseEffectUnmountMouseMove';
 
 function App() {
   return (
@@ -22,7 +22,7 @@ function App() {
       <UseEffectUpdateDocumentTitle />
       <ClassPreventcomponentDidUpdate />
       <ClassUnmountMouseMove /> {/*<MouseMoveWithClass />*/}
-      <UseEffectMouseMove />
+       <UseEffectUnmountMouseMove /> { /*<UseEffectMouseMove /> */ }
     </div>
   );
 }
