@@ -10,6 +10,8 @@ import UseEffectUpdateDocumentTitle from './hooks/useEffect/UseEffectUpdateDocum
 import ClassPreventcomponentDidUpdate from './hooks/useEffect/ClassPreventcomponentDidUpdate';
 import ClassUnmountMouseMove from './hooks/useEffect/ClassUnmountMouseMove';
 import UseEffectUnmountMouseMove from './hooks/useEffect/UseEffectUnmountMouseMove';
+import ClassSetInterval from './hooks/useEffect/ClassSetInterval';
+import UseEffectInterval from './hooks/useEffect/UseEffectInterval'
 
 function App() {
   return (
@@ -23,6 +25,8 @@ function App() {
       <ClassPreventcomponentDidUpdate />
       <ClassUnmountMouseMove /> {/*<MouseMoveWithClass />*/}
        <UseEffectUnmountMouseMove /> { /*<UseEffectMouseMove /> */ }
+       <ClassSetInterval />
+       <UseEffectInterval />
     </div>
   );
 }
