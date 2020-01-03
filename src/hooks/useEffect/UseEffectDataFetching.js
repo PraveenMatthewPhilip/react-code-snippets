@@ -6,7 +6,6 @@ const UseEffectDataFetching = () => {
     const [ posts, setPosts ] = useState([]);
     const [ post, setPost ] = useState({});
     const [ Id, setId ] = useState(1);
-    const [IdFromButton, setIdFromButton] = useState(1);
 
     useEffect(() => {
         console.log("useEffect - All Posts - UseEffectDataFetching.js")
